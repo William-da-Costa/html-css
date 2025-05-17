@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Document</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
         }
-
-        table {
+         table {
             border-collapse: collapse;
         }
 
@@ -28,17 +28,18 @@
             background-color: lightgrey;
         }
 
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
         div#container {
             overflow-x: auto;
         }
-
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sit perspiciatis, dignissimos sequi eaque porro tempore asperiores expedita et ipsam vero, laboriosam eius! Officia doloribus rem officiis eaque non. Atque.</p>
-    <div id="container">
-        <table>
+    <h1>Isso é um teste!</h1>
+    <table>
             <caption>Vendas de produtos por mês</caption>
             <thead>
                 <tr>
@@ -165,6 +166,5 @@
                 </tr>
             </tbody>
         </table>
-    </div>
 </body>
 </html>
